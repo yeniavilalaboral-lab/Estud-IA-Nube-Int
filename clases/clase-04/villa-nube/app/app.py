@@ -28,7 +28,7 @@ logging.basicConfig(
 log = logging.getLogger("tramites")
 
 VERSION = os.getenv("APP_VERSION", "sin-version")
-DIAS_VIGENCIA = int(os.getenv("DIAS_VIGENCIA_DOCUMENTO", "90"))
+DIAS_VIGENCIA = int(os.getenv("DIAS_VIGENCIA_DOCUMENTO", "900"))
 USA_POSTGRES = bool(os.getenv("DB_HOST"))
 TIPOS_VALIDOS = {"certificado_residencia"}
 
